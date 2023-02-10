@@ -11,6 +11,7 @@
 		4ACCAB062993FA730077E23D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCAB052993FA730077E23D /* ContentView.swift */; };
 		4ACCAB082993FA760077E23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCAB072993FA760077E23D /* Assets.xcassets */; };
 		4ACCAB0B2993FA760077E23D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCAB0A2993FA760077E23D /* Preview Assets.xcassets */; };
+		4ACCAB122993FD230077E23D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCAB112993FD230077E23D /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4ACCAB052993FA730077E23D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4ACCAB072993FA760077E23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ACCAB0A2993FA760077E23D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ACCAB112993FD230077E23D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4ACCAB032993FA730077E23D /* MapHackwichApp.swift */,
 				4ACCAB052993FA730077E23D /* ContentView.swift */,
+				4ACCAB112993FD230077E23D /* LocationManager.swift */,
 				4ACCAB072993FA760077E23D /* Assets.xcassets */,
 				4ACCAB092993FA760077E23D /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				4ACCAB062993FA730077E23D /* ContentView.swift in Sources */,
 				4ACCAB042993FA730077E23D /* MapHackwichApp.swift in Sources */,
+				4ACCAB122993FD230077E23D /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 9KYQVRUW73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 9KYQVRUW73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
